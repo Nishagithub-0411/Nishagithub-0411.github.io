@@ -33,17 +33,18 @@ li a:hover {
 h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: #f0f0f0;
     padding-top: 200px;
     font-size: 60px;
+    color: #f0f0f0;
     }
 
-    p{
+i{
     text-align: center;
     font-size: 30px;
-    color: #be3144;
+    color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
     padding-top: 0px;
+    padding-left: 510px;
     }
 
 body{
@@ -81,10 +82,29 @@ footer{
     height: 670px;
     background-repeat: no-repeat; 
     }
-    .border{
-        width: 400px;
-        height: 500px;
-        padding: 0px;
-        margin: 0px;
-    }
-            
+.border{
+    width: 400px;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+}
+td{
+    display: inline-flex;
+    display: grid;
+    float: left;
+    grid-row: 10px;
+    margin: 20px;
+}
+button{
+    background-color: #303841;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+button:a{
+    font-size: 20px;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+h2{
+    color: #f0f0f0;
+}

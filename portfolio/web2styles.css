@@ -108,3 +108,43 @@ button:a{
 h2{
     color: #f0f0f0;
 }
+.facebook{
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    font-family: 'poppins', sans-serif; 
+    color: #f0f0f0;   
+}
+.github{
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    font-family: 'poppins', sans-serif;  
+    color: #f0f0f0;
+}
+.twitter{
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transform 0.3s ease-out;
+    font-family: 'poppins', sans-serif;  
+    transition: ease-down;
+    color: #f0f0f0;
+}
+.call{
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    font-family: 'poppins', sans-serif;  
+    color: #f0f0f0;
+}
+.mail{
+    font-size: 25px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    font-family: 'poppins', sans-serif; 
+    color: #f0f0f0; 
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="survey.css"> 
+    </head>
+    <body>
+        <br>
+        <br>
+        <br>
+        <h1 class="title">FreeCodeCamp Survey Form</h1>
+        <p class="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+        <div class="body">
+        <form id="survey-form">
+                <label class="name-label" for="name"><p>Name</p></label>
+                <input class="name" type="text" placeholder="Enter your name" required>
+                <label class="email-label" for="email"><p>Email</p></label>
+                <input class="email" type="email" placeholder="Enter your email" required>
+                <label class="age-label" for="number"><p>Age(optional)</p></label> 
+                <input class="age" type="number" placeholder="Age" min="10" max="50" required>
+                <p>Which option best describes your current role?</p>
+                <select class="dropdown" value="default" placeholder="Select Current Role">
+                    <option value="student">Student</option>
+                    <option value="time">Full Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option value="prefer">Prefer Not To Say</option>
+                    <option value="other">Other</option>
+                </select>
+                <p>Would you recommend FreeCodeCamp to a friend?</p>
+                <input type="radio" value="1" name="movie" checked>Definitely</input>
+                <br>
+                <input type="radio" value="2" name="movie">Maybe</input>
+                <br>
+                <input type="radio" value="3" name="movie">Not sure</input>
+                <br>
+                <p>What is your favourite feature of freecodecamp?</p>
+                <select class="dropdown" value="default" placeholder="Select Current Role">
+                    <option value="student">Challenges</option>
+                    <option value="time">Projects</option>
+                    <option value="learner">Community</option>
+                    <option value="prefer">Open Sources</option>
+                </select>
+                <br>
+                <p>What would you like to see improved?</p>
+                <input type="checkbox" value="1" name="movie">Front-end Projects</input><br>
+                <input type="checkbox" value="2" name="movie">Back-end Projects</input><br>
+                <input type="checkbox" value="3" name="movie">Data Visualisation</input><br>
+                <input type="checkbox" value="4" name="movie">Challenges</input><br>
+                <input type="checkbox" value="5" name="movie">Open Source Community</input><br>
+                <input type="checkbox" value="6" name="movie">Gitter Help Rooms</input><br>
+                <input type="checkbox" value="7" name="movie">Videos</input><br>
+                <input type="checkbox" value="8" name="movie">City Meetups</input><br>
+                <input type="checkbox" value="9" name="movie">Wiki</input><br>
+                <input type="checkbox" value="10" name="movie">Forum</input><br>
+                <input type="checkbox" value="11" name="movie">Additional Courses</input>
+                <br>
+                <p>Any comments or suggestions?</p>
+                <textarea class="comment" cols="40" rows="4" placeholder="Enter your comment here..."></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit" class="submit">
+        </form>
+        </div>
+    </body>
+</html>

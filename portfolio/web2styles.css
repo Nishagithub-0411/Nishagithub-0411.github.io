@@ -1,3 +1,10 @@
+body{
+    overflow-y: scroll;
+    margin: 0px;
+    background-color: #45567d;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 670px;
+    background-repeat: no-repeat;
+    }
 ul {
     list-style-type: none;
     margin: 0;
@@ -8,12 +15,13 @@ ul {
     width: 100%;
     top: 0px;
     }
-
-li {
+.nav{
+    float: left;
+}
+.li {
     float: right;
    }
-
-li a {
+.li a {
     display: block;
     color: #f0f0f0;
     text-align: center;
@@ -25,63 +33,82 @@ li a {
     justify-content: center;
     padding: 20px;
     }
-
-li a:hover {
+.li a:hover {
     background-color: #45567d;
     } 
-
 h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     padding-top: 200px;
     font-size: 60px;
-    color: #f0f0f0;
+    color: #f0f0f0; 
+    text-decoration: none
     }
-
-i{
-    text-align: center;
-    font-size: 30px;
-    color: #f0f0f0;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 0px;
-    padding-left: 510px;
+.learn{
+        font-weight: 500; 
+        color: #be3144;
+        font-style: italic;
+        text-align: center;
+        font-size: 30px;
+        line-height: 0px;
+        font-family: 'Poppins', sans-serif
     }
-
-body{
-    overflow-y: scroll;
-    margin: 0px;
-    background-color: #45567d;
-    }
-
 h2{
     padding-top: 400px;
     text-align: center;
-    font-size: 40px;
+    text-decoration: underline;
+    font-size: 50px;
     color: #f0f0f0;
     font-family: 'Raleway', sans-serif;
     }
-
-h3{
+table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+.img{
+        display: flex;
+    }
+.bt{
     text-align: center;
     background-color: #303841;
     display: block;
-    margin-left: 625px;
-    margin-right: 625px;
+    color: #f0f0f0;
+    margin-left: 650px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     }
-h3 a {
+.bt a{
     color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    font-family: "Font Awesome 5 Free";
     }
-h3 a:hover{
-    background-color: #be3144;
-    border-color: #be3144;
+.bt a:hover{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transform: translateX(0);
     }
 footer{
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-color: #45567d;
     height: 670px;
     background-repeat: no-repeat; 
     }
+h5{
+    color: #f0f0f0;
+    text-decoration: none; 
+    font-weight: 0; 
+    text-indent: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
 .border{
     width: 400px;
     height: 500px;
@@ -143,11 +170,4 @@ h2{
     transition: transform 0.3s ease-out;
     font-family: 'poppins', sans-serif; 
     color: #f0f0f0; 
-}
-table{
-    margin-left: auto;
-    margin-right: auto;
-}
-.bt{
-    
 }

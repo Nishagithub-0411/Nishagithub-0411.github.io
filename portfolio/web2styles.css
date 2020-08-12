@@ -1,10 +1,23 @@
 body{
-    overflow-y: scroll;
-    margin: 0px;
     background-color: #45567d;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%); height: 670px;
     background-repeat: no-repeat;
+    color: var(--main-white);
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    scroll-behavior: smooth;
     }
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -15,9 +28,7 @@ ul {
     width: 100%;
     top: 0px;
     }
-.nav{
-    float: left;
-}
+
 .li {
     float: right;
    }
@@ -39,7 +50,6 @@ ul {
 h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    padding-top: 200px;
     font-size: 60px;
     color: #f0f0f0; 
     text-decoration: none
@@ -54,37 +64,36 @@ h1{
         font-family: 'Poppins', sans-serif
     }
 h2{
-    padding-top: 400px;
     text-align: center;
     text-decoration: underline;
     font-size: 50px;
     color: #f0f0f0;
     font-family: 'Raleway', sans-serif;
     }
-table{
-        margin-left: auto;
-        margin-right: auto;
-    }
-.img{
-        display: flex;
-    }
+
+.projects-section {
+    text-align: center;
+    background: var(--main-blue);
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 .bt{
     text-align: center;
     background-color: #303841;
-    display: block;
     color: #f0f0f0;
-    margin-left: 650px;
     padding-top: 15px;
     padding-bottom: 15px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: auto;
     }
 .bt a{
     color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-align: center;
-    padding: 30px;
     font-family: "Font Awesome 5 Free";
     }
 .bt a:hover{
@@ -93,81 +102,55 @@ table{
     transition-delay: 0s;
     transform: translateX(0);
     }
-footer{
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-    background-color: #45567d;
-    height: 670px;
-    background-repeat: no-repeat; 
+    .contact-section {
+        background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
     }
-h5{
-    color: #f0f0f0;
-    text-decoration: none; 
-    font-weight: 0; 
-    text-indent: 0px;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    font-family: 'Poppins', sans-serif;
-}
-.border{
-    width: 400px;
-    height: 500px;
-    padding: 0px;
-    margin: 0px;
-}
-td{
-    display: inline-flex;
-    display: grid;
-    float: left;
-    grid-row: 10px;
-    margin: 20px;
-}
-button{
-    background-color: #303841;
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-button:a{
-    font-size: 20px;
-    color: #f0f0f0;
-    text-decoration: none;
-}
-h2{
-    color: #f0f0f0;
-}
-.facebook{
-    font-size: 25px;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
-    font-family: 'poppins', sans-serif; 
-    color: #f0f0f0;   
-}
-.github{
-    font-size: 25px;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
-    font-family: 'poppins', sans-serif;  
-    color: #f0f0f0;
-}
-.twitter{
-    font-size: 25px;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transform: 0.3s ease-out;
-    font-family: 'poppins', sans-serif;  
-    transition: ease-down;
-    color: #f0f0f0;
-}
-.call{
-    font-size: 25px;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
-    font-family: 'poppins', sans-serif;  
-    color: #f0f0f0;
-}
-.mail{
-    font-size: 25px;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
-    font-family: 'poppins', sans-serif; 
-    color: #f0f0f0; 
-}
+      .contact-section-header > p {
+        font-style: italic;
+      }
+      
+      .contact-links {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      
+      .contact-details {
+        font-size: 2.4rem;
+        text-shadow: 2px 2px 1px #1f1f1f;
+        transition: transform 0.3s ease-out;
+      }
+      
+      .contact-details:hover {
+        transform: translateY(8px);
+      }
+      
+      /* Footer */
+      
+      footer {
+        font-weight: 300;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem;
+        background: var(--main-gray);
+        border-top: 4px solid var(--main-red);
+      }
+      
+      footer > p {
+        margin: 2rem;
+      }
+      
+      footer i {
+        vertical-align: middle;
+      }
+      
+      @media (max-width: 28.75em) {
+        footer {
+          flex-direction: column;
+          text-align: center;
+        }
+      }

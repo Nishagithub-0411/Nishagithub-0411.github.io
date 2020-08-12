@@ -15,6 +15,9 @@ body{
     font-size: 20px;
     color: white;
 }
+#survey-form{
+    width: 90%;
+}
 .name{
     width: 560px;
     padding: 15px;

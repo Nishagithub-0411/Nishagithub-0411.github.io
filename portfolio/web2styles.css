@@ -173,7 +173,107 @@ h2{
         color: #f0f0f0;
       }
       
-      footer i {
-        vertical-align: middle;
-      }
+footer i {
+      vertical-align: middle;
+}
       
+.button a:link {
+  background-color: #303141;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button a:visited{
+  background-color: #303141;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button a:hover {
+  background-color: #be3144;
+}
+.button a:active{
+  background-color: #be3144;
+}
+button{
+  border-radius: 2px;
+}
+.show{
+  font-family: 'Poppins', sans-serif;
+}
+.show > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.button {
+  font-size: 2rem;
+  background: var(--main-gray);
+  transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+
+.button:hover {
+  background: var(--main-red);
+}
+
+.button:hover > i {
+  transform: translateX(2px);
+  padding-left: 10px;
+}
+.project-title{
+  text-decoration: none;
+  COLOR: #F0F0F0;
+}
+.code{
+  transition-property: color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  color: #303841;
+}
+
+.project {
+  background: var(--main-gray);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  BACKGROUND-COLOR: #303144;
+
+}
+
+.code {
+  background-color: #303144;
+  color: #303144;
+  color: var(--main-gray);
+  transition: color 0.3s ease-out;
+}
+span.code{
+  color: #303144;
+}
+
+.project:hover .code {
+  color: #ff7f50;
+}
+.projects-grid{
+  row-gap: 4rem;
+}
+a{
+  text-decoration: none;
+}

@@ -7,18 +7,19 @@
         <br>
         <br>
         <br>
-        <h1 class="title">FreeCodeCamp Survey Form</h1>
+        <h1 class="title">freeCodeCamp Survey Form</h1>
         <p class="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+        <br>
         <div class="body">
         <form id="survey-form">
                 <label class="name-label" for="name"><p>Name</p></label>
-                <input class="name" type="text" placeholder="Enter your name" required>
+                <input class="name" type="text" class="form-control" placeholder="Enter your name" required>
                 <label class="email-label" for="email"><p>Email</p></label>
-                <input class="email" type="email" placeholder="Enter your email" required>
+                <input class="email" type="email" class="form-control"  placeholder="Enter your email" required>
                 <label class="age-label" for="number"><p>Age(optional)</p></label> 
-                <input class="age" type="number" placeholder="Age" min="10" max="50" required>
+                <input class="age" type="number" class="form-control"  placeholder="Age" min="10" max="50" required>
                 <p>Which option best describes your current role?</p>
-                <select class="dropdown" value="default" placeholder="Select Current Role">
+                <select class="dropdown" value="default" class="form-control"  placeholder="Select Current Role">
                     <option value="student">Student</option>
                     <option value="time">Full Time Job</option>
                     <option value="learner">Full Time Learner</option>
@@ -54,7 +55,7 @@
                 <input type="checkbox" value="11" name="movie">Additional Courses</input>
                 <br>
                 <p>Any comments or suggestions?</p>
-                <textarea class="comment" cols="40" rows="4" placeholder="Enter your comment here..."></textarea>
+                <textarea class="comment" cols="40" rows="4" class="form-control" placeholder="Enter your comment here..."></textarea>
                 <br>
                 <br>
                 <input type="submit" value="Submit" class="submit">

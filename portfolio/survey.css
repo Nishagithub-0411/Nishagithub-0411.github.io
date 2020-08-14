@@ -1,55 +1,60 @@
 body{
     background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg) ;
+    background-attachment: fixed;
     text-align: center;
     font-family: helvetica;
     overflow: scroll;
     background-color: var(--color-darkblue);
+    font-family: 'Poppins', sans-serif;
 }
 .body{
-    width: 600px;
-    padding: 20px;
+    width: 800px;
+    padding: 40px;
     margin: auto;
     background-color: rgba(0,0,0,0.6);
     text-align: left;
-    border-radius: 10px;
+    border-radius: 0.25rem;
     font-size: 20px;
     color: white;
 }
 #survey-form{
     width: 90%;
 }
+p{
+    color: #f3f3f3;
+}
 .name{
-    width: 560px;
-    padding: 15px;
-    border-radius: 10px;
+    width: 750px;
+    padding: 11px;
+    border-radius: 6px;
 }
 .email{
-    width: 560px;
+    width: 750px;
     padding: 15px;
     border-radius: 10px;
 }
 .age{
-    width: 560px;
+    width: 750px;
     padding: 15px;
     border-radius: 10px;
 }
 .dropdown{
-    width: 590px;
+    width: 780px;
     padding: 15px;
     border-radius: 10px;
 }
 .feature{
-    width: 560px;
+    width: 750px;
     padding: 15px;
     border-radius: 10px;
 }
 .comment{
-    width: 560px;
+    width: 750px;
     padding: 15px;
     border-radius: 5px;
 }
 .submit{
-    width: 575px;
+    width: 765px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 90px;
@@ -63,8 +68,11 @@ body{
     margin-left: 12px;
 }
 .title{
-    color: white;
+    color: #f3f3f3;
+    margin: 0px;
+    font-style: lighter;
 }
 .description{
     color: white;
+    letter-spacing: 1px;
 }

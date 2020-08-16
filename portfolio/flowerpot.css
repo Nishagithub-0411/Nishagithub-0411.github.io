@@ -1,0 +1,70 @@
+.d1, .d2, .d3, .d4{
+    margin-top: 8%;
+    margin-left: 42%;
+    background-color: red;
+    height: 170px;
+    width: 160px;
+    border-radius: 30px;
+    justify-content: center;
+    position: absolute; 
+}
+
+.d2{
+    transform: rotate(45deg);
+}
+
+.d3{
+    transform: rotate(135deg);
+}
+
+.d4{
+    transform: rotate(90deg);
+}
+
+.circle{
+    margin-top: 146px;
+    margin-left: 45%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.stem{
+    height: 200px;
+    width: 10px;
+    background-color: green;
+    margin-left: 48%;
+    margin-top: 22%;
+    position: absolute;
+}
+
+.pot1{
+    position: absolute;
+    height: 260px;
+    width: 108px;
+    background-color: brown;
+    transform: skewX(10deg);
+    margin-top: 30%;
+}
+
+.pot2{
+    position: absolute;
+    height: 260px;
+    width: 145px;
+    background-color: brown;
+    transform: skewX(170deg);
+    margin-left: 49px;
+    margin-top: 30%;
+}
+
+.sky{
+    background-color: skyblue;
+    margin: 0px;
+}
+
+.land{
+    background-color: green;
+    margin-left: 42%;
+}

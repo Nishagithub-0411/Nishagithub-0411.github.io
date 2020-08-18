@@ -1,0 +1,630 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:Okra, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+.welcome-section{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    width: 100%;
+    height: 580px;
+}
+
+.left-nav{
+    margin-left: 200px;
+    font-family:Okra, Helvetica, sans-serif;
+}
+
+.nav-right{
+    float: right;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-right: 71px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Okra, Helvetica, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.div{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-block{
+    height: 250px;
+    width: 20%;
+    cursor: pointer;
+    border: solid grey 1px;
+    border-radius: 19px;
+}
+
+.block-img{
+    width: 100%;
+    height: 200px;
+}
+
+.cpt{
+    color: black;
+    font-weight: medium;
+    text-align: center;
+    padding: 15px;
+}
+
+.caption{
+    height: 50px;
+}
+
+.second-para{
+    margin-left: 130px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+.sub-heading{
+    margin-left: 130px;
+    font-size: 20px;
+    color: grey;
+    font-weight: 300;
+}
+
+.sub-block{
+    height: 310px;
+    margin-left: 127px;
+    display: flex;
+    margin-top: 50px;
+    flex: wrap;
+    margin-right: 45px;
+}
+
+.sub-img{
+    width: 280px;
+    height: 300px;
+}
+
+.third-para{
+    margin-top: 80px;
+    font-size: 45px;
+    font-weight: lighter;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 130px;
+    margin-right: 20px;
+    row-gap: 25px;
+    column-gap: 15px;
+}
+
+.bu{
+    height: 70px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: lightgrey;
+    cursor: pointer;
+}
+
+.app{
+    background-color: rgb(255, 251, 247);
+    margin-top: 150px;
+    width: 100%;
+}
+
+.app-img{
+    background-color: rgb(255, 251, 247);
+    margin-top: 150px;
+}
+
+.app-get{
+    font-size: 45px;
+}
+
+.play{
+    height: 100px;
+    width: 200px;
+}
+
+.phone{
+    display: flex;
+}
+
+.download{
+    margin-top: 80px;
+}
+
+.ending{
+    margin-left: 150px;
+}
+
+.explore{
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.popular{
+    font-size: 25px;
+}
+
+.near{
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+   
+}
+
+.restaurants{
+    margin-top: 100px;
+}
+
+.res{
+    font-size: 25px;
+}
+
+.me{
+    font-size: 20px;
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+}
+
+.chains{
+    margin-top:100px;
+    font-size: 25px;
+}
+
+.bi{
+    font-size: 18px;
+}
+
+.bi2{
+    margin-top: -138px;
+}
+
+.bi3{
+    
+    margin-top: -139px;
+}
+
+.bi4{
+    margin-top: -140px;
+}
+
+.bi5{
+    margin-top: -140px;
+}
+
+.bik{
+    color: rgb(130, 130, 130);
+    margin-bottom: 100px;
+}
+
+.blu{
+    color: rgb(130, 130, 130);
+    margin-left: 250px;
+}
+
+.bt{
+    color: rgb(130, 130, 130);
+    margin-left: 513px;
+}
+
+.bur{
+    color: rgb(130, 130, 130);
+    margin-left: 733px;
+}
+
+.ger{
+    color: rgb(130, 130, 130);
+    margin-left: 940px;
+}
+
+.del{
+    font-size:25px ;
+    margin-top:100px;
+}
+
+.cr{
+    color: rgb(130, 130, 130);
+}
+
+.ko{
+    color: rgb(130, 130, 130);
+    margin-left: 200px;
+}
+
+.mum{
+    color: rgb(130, 130, 130);
+}
+
+.ru{
+    color: rgb(130, 130, 130);
+}
+
+.pu{
+    color: rgb(130, 130, 130);
+}
+
+.cities-kol{
+    margin-top: -489px;
+}
+
+.cities-mum{
+    margin-top: -489px;
+    margin-left: 400px;
+}
+
+.cities-ben{
+    margin-top: -489px;
+    margin-left: 600px;
+}
+
+.cities-pune{
+    margin-top: -489px;
+    margin-left: 800px;
+}
+
+footer{
+    margin-top: -3500px;
+}
+
+.bo a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.mato{
+    left: 150px;
+    position: absolute;
+    margin-top:3500px;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.company {
+    left: 150px;
+    position: absolute;
+    margin-top:3600px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    
+}
+
+.foo{
+    left: 350px;
+    position: absolute;
+    margin-top:3600px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nts{
+    left: 560px;
+    position: absolute;
+    margin-top:3600px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.ou{
+    left: 810px;
+    position: absolute;
+    margin-top:3600px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.nks{
+    left: 980px;
+    position: absolute;
+    margin-top:3600px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.out a {
+    left: 150px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+    margin-top:3630px;
+
+}
+
+.og a{
+    left: 150px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.car a{
+    left: 150px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ort a{
+    left: 150px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.act a{
+    left: 150px;
+    position: absolute;
+    margin-top:3730px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.code a{
+    left: 350px;
+    position: absolute;
+    margin-top:3630px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ity a{
+    left: 350px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.help a{
+    left: 350px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.per a{
+    left: 350px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.app a{
+    left: 350px;
+    position: absolute;
+    margin-top:3730px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ad a{
+    left: 560px;
+    position: absolute;
+    margin-top:3630px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.list a{
+    left: 560px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.bus a{
+    left: 560px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.wid a{
+    left: 560px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.pro a{
+    left: 560px;
+    position: absolute;
+    margin-top:3730px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.vacy a{
+    left: 810px;
+    position: absolute;
+    margin-top:3630px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.ms a{
+    left: 810px;
+    position: absolute;
+    margin-top:3655px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.sec a{
+    left: 810px;
+    position: absolute;
+    margin-top:3680px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.sit a{
+    left: 810px;
+    position: absolute;
+    margin-top:3705px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.india{
+    height: 3.0015rem;
+    transform: scale(0.488889);
+    margin-left: -1.2rem;
+    background-position: -141px 0px;
+    border: 1px solid  rgb(130, 130, 130); 
+    border-radius: 5px;
+    bottom: 0.5px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: -40px;
+    margin-left: -9px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+.kk{
+    left: 890px;
+    position: absolute;
+    margin-top:3510px;
+}
+.ind{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:5px ;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    padding-left: 70px;
+}
+
+.ii{
+    left: 1040px;
+    position: absolute;
+    margin-top:3510px;
+}
+
+.world{
+    height: 3.0015rem;
+    transform: scale(0.488889);
+    margin-left: -1.2rem;
+    background-position: -141px 0px;
+    border: 1px solid  rgb(130, 130, 130); 
+    border-radius: 5px;
+    bottom: 0.5px;
+    width: 80px;
+    height: 40px;
+    margin-bottom: -40px;
+    margin-left: -9px;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.wor{
+    position: absolute;
+    border-color: rgb(232, 232, 232);
+    border-image: initial;
+    border-radius:5px ;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    padding-left: 70px;
+}
+
+.ios{
+    width: 14.7rem;
+    height: 6rem;
+    cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top:3650px;
+    position: absolute;
+    left: 925px;
+}
+
+.sit a::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: gainsboro;
+    width: 1100px;
+    top: 120px;
+    right: -360px;
+}
+
+.gg{
+    left: 135px;
+    position: absolute;
+    margin-top:3860px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(130, 130, 130);
+}
+
+.se{
+    position: absolute;
+    top: 352.5px;
+    margin-left: 897px;
+    cursor: pointer;
+}

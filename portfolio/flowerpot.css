@@ -1,70 +1,132 @@
-.d1, .d2, .d3, .d4{
-    margin-top: 8%;
-    margin-left: 42%;
-    background-color: red;
-    height: 170px;
-    width: 160px;
-    border-radius: 30px;
+.main-div{
+    margin: 100px;
+    height: 630px;
+    width: 700px;
+    display: flex;
     justify-content: center;
-    position: absolute; 
 }
 
-.d2{
-    transform: rotate(45deg);
+.flower{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.d3{
-    transform: rotate(135deg);
-}
-
-.d4{
-    transform: rotate(90deg);
-}
-
-.circle{
-    margin-top: 146px;
-    margin-left: 45%;
-    height: 70px;
-    width: 70px;
+.pet1 {
+    height: 100px;
+    width: 280px;
     border-radius: 50px;
-    background-color: yellow;
-    position: absolute;
+    background-color: cornflowerblue;
+    z-index: 2;
 }
 
-.stem{
-    height: 200px;
-    width: 10px;
-    background-color: green;
-    margin-left: 48%;
-    margin-top: 22%;
+.pet2 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+    transform: rotate(60deg);
     position: absolute;
+    z-index: 3;
+}
+
+.pet3 {
+    height: 100px;
+    width: 280px;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+    transform: rotate(300deg);
+    position: absolute;
+    z-index: 4;
+}
+
+.left-eye {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -80px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.eye-left {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.right-eye{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 80px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 6;
+}
+
+.eye-right{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 8;
+}
+
+.nose {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 40px;
+    background-color: pink;
+    border-radius: 50%;
+    z-index: 7;
+}
+
+.stem {
+    width: 20px;
+    height: 250px;
+    background-color: rgb(20, 201, 147);
+    position: absolute;
+    margin: 250px;
+    top: 10px;
 }
 
 .pot1{
+    width: 250px;
+    height: 40px;
+    background-color: #ff7043;
     position: absolute;
-    height: 260px;
-    width: 108px;
-    background-color: brown;
-    transform: skewX(10deg);
-    margin-top: 30%;
+    margin-top: 400px;
 }
 
 .pot2{
+    width: 180px;
     position: absolute;
-    height: 260px;
-    width: 145px;
-    background-color: brown;
-    transform: skewX(170deg);
-    margin-left: 49px;
-    margin-top: 30%;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 30px solid #d66f51;
+    top: 538px;
 }
 
-.sky{
-    background-color: skyblue;
-    margin: 0px;
+.pot3{
+    width: 104px;
+    position: absolute;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 100px solid #ff7043;
+    top: 564px;
 }
 
-.land{
-    background-color: green;
-    margin-left: 42%;
-}

@@ -1,0 +1,169 @@
+.background{
+    height: 360px;
+    width: 1300px;
+    position: absolute;
+    margin-left: 30px;
+    background-color: skyblue;
+}
+
+.road{
+    position: absolute;
+    width: 1300px;
+    height: 600px;
+    background-color: black;
+    margin-left: 30px;
+}
+
+.car{
+    border: 10px solid #1881ec;
+    border-radius: 33%;
+    height: 260px;
+    width: 850px;
+    background-color: cornflowerblue;
+    position: absolute;
+    display: flex;
+    margin-top: 199px;
+    margin-left: 250px;
+}
+
+.roof{
+    border-radius: 30%;
+    position: absolute;
+}
+
+.gate{
+    border: 6px solid steelblue;
+    height: 380px;
+    width: 256px;
+    position: absolute;
+    border-radius: 10%;
+    left: 520px;
+    z-index: 1;
+    top: 40px;
+}
+
+
+.window{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10%;
+    height: 180px;
+    width: 245px;
+    top: 50px;
+    left: 530px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.left-light{
+    border: 1px solid red;
+    height: 55px;
+    width: 15px;
+    position: absolute;
+    background-color: maroon;
+    border-radius: 10px;
+    left: 253px;
+    top: 310px;
+}
+
+.right-light{
+    border: 1px solid yellow;
+    height: 55px;
+    width: 15px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 10px;
+    left: 1118px;
+    top: 310px;
+}
+
+
+.left-wheel{
+    border: 5px solid gray;
+    height: 170px;
+    width: 170px;
+    background-color: #000000;
+    border-radius: 50%;
+    left: 350px;
+    position: absolute;
+    top: 380px;
+    
+}
+
+.left-inner{
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    left: 385px;
+    position: absolute;
+    top: 415px;
+}
+
+.right-wheel{
+    border: 5px solid gray;
+    height: 170px;
+    width: 170px;
+    background-color: #000000;
+    border-radius: 50%;
+    left: 790px;
+    position: absolute;
+    top: 380px;
+    
+}
+
+.right-inner{
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    left: 825px;
+    position: absolute;
+    top: 415px;
+}
+
+.right-glass{
+    border: 5px solid white;
+    height: 150px;
+    width: 120px;
+    background-color: #ffffff;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    left: 790px;
+    top: 64px;
+    z-index: 1;
+    
+}
+
+.middle-glass{
+    width: 550px;
+    height: 200px; 
+    background-color:  cornflowerblue;
+    border-top-left-radius: 600px;  
+    border-top-right-radius: 600px; 
+    border: 10px solid #1881ec ;
+    border-bottom: 0;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 8px;
+
+}
+
+.left-glass{
+    border: 5px solid white;
+    height: 150px;
+    width: 95px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-top-left-radius: 200px;
+    position: absolute;
+    left: 409px;
+    top: 64px;
+    z-index: 1;
+}

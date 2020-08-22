@@ -16,11 +16,13 @@ body{
 
 .left-nav{
     margin-left: 200px;
+    color: white;
     font-family:Okra, Helvetica, sans-serif;
 }
 
 .nav-right{
     float: right;
+    color: white;
     font-size: 20px;
     margin-top: -15px;
     margin-right: 71px;

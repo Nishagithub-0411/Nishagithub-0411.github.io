@@ -159,396 +159,107 @@ a{
     margin-left: 150px;
 }
 
-.explore{
+.main-heading{
     font-size: 30px;
     margin-top: 100px;
 }
 
-.popular{
+.sub-headings{
     font-size: 25px;
+    margin-top: 100px;
 }
 
-.near{
+.para{
     font-size: 20px;
     color: rgb(130, 130, 130);
     text-decoration: none;
    
 }
 
-.restaurants{
+.end-div{
     margin-top: 100px;
 }
 
-.res{
-    font-size: 25px;
+.foods{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.me{
+.food{
     font-size: 20px;
     color: rgb(130, 130, 130);
-    text-decoration: none;
+    width: 230px;
+    height: 40px;
+    cursor: pointer;
 }
 
-.chains{
-    margin-top:100px;
-    font-size: 25px;
+.food:hover{
+    color: black;
 }
 
-.bi{
-    font-size: 18px;
-}
-
-.bi2{
-    margin-top: -138px;
-}
-
-.bi3{
-    
-    margin-top: -139px;
-}
-
-.bi4{
-    margin-top: -140px;
-}
-
-.bi5{
-    margin-top: -140px;
-}
-
-.bik{
-    color: rgb(130, 130, 130);
-    margin-bottom: 100px;
-}
-
-.blu{
-    color: rgb(130, 130, 130);
-    margin-left: 250px;
-}
-
-.bt{
-    color: rgb(130, 130, 130);
-    margin-left: 513px;
-}
-
-.bur{
-    color: rgb(130, 130, 130);
-    margin-left: 733px;
-}
-
-.ger{
-    color: rgb(130, 130, 130);
-    margin-left: 940px;
-}
-
-.del{
-    font-size:25px ;
-    margin-top:100px;
-}
-
-.cr{
-    color: rgb(130, 130, 130);
-}
-
-.ko{
-    color: rgb(130, 130, 130);
-    margin-left: 200px;
-}
-
-.mum{
-    color: rgb(130, 130, 130);
-}
-
-.ru{
-    color: rgb(130, 130, 130);
-}
-
-.pu{
-    color: rgb(130, 130, 130);
-}
-
-.cities-kol{
-    margin-top: -489px;
-}
-
-.cities-mum{
-    margin-top: -489px;
-    margin-left: 400px;
-}
-
-.cities-ben{
-    margin-top: -489px;
-    margin-left: 600px;
-}
-
-.cities-pune{
-    margin-top: -489px;
-    margin-left: 800px;
-}
-
-footer{
-    margin-top: -3500px;
-}
-
-.bo a{
-    color: #000;
-    font-size: 20px;
+.see{
     text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.mato{
-    left: 150px;
-    position: absolute;
-    margin-top:3500px;
-    text-decoration: none;
-    font-size: 45px;
+.words{
+    background-color: rgb(252, 252, 252);
 }
 
-.company {
-    left: 150px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-    
+.footer{
+    height: 500px;
+    background-color: rgb(248, 248, 248);
+}
+.head-zomato{
+    margin-left: 150px;
+    font-size: 40px;
+    margin-top: 80px;
+    padding-top: 40px;
 }
 
-.foo{
-    left: 350px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
+.foot{
+    margin-left: 150px;
+    height: 300px;
 }
 
-.nts{
-    left: 560px;
-    position: absolute;
-    margin-top:3600px;
+a{
     text-decoration: none;
-    font-size: 16px;
+    color: rgb(105, 105, 105);
+    font-family: Okra, Helvetica, sans-serif;    
+}
+
+a:hover{
     color: black;
 }
 
-.ou{
-    left: 810px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
+.flex{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.nks{
-    left: 980px;
-    position: absolute;
-    margin-top:3600px;
-    text-decoration: none;
-    font-size: 16px;
-    color: black;
-}
-
-.out a {
-    left: 150px;
-    position: absolute;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-    margin-top:3630px;
-
-}
-
-.og a{
-    left: 150px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.car a{
-    left: 150px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ort a{
-    left: 150px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.act a{
-    left: 150px;
-    position: absolute;
-    margin-top:3730px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.code a{
-    left: 350px;
-    position: absolute;
-    margin-top:3630px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ity a{
-    left: 350px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.help a{
-    left: 350px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.per a{
-    left: 350px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.app a{
-    left: 350px;
-    position: absolute;
-    margin-top:3730px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ad a{
-    left: 560px;
-    position: absolute;
-    margin-top:3630px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.list a{
-    left: 560px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.bus a{
-    left: 560px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.wid a{
-    left: 560px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.pro a{
-    left: 560px;
-    position: absolute;
-    margin-top:3730px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.vacy a{
-    left: 810px;
-    position: absolute;
-    margin-top:3630px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.ms a{
-    left: 810px;
-    position: absolute;
-    margin-top:3655px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.sec a{
-    left: 810px;
-    position: absolute;
-    margin-top:3680px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
-}
-
-.sit a{
-    left: 810px;
-    position: absolute;
-    margin-top:3705px;
-    text-decoration: none;
-    font-size: 16px;
-    color: rgb(130, 130, 130);
+.col{
+    margin-right: 90px;
 }
 
 .india{
-    height: 3.0015rem;
     transform: scale(0.488889);
-    margin-left: -1.2rem;
-    background-position: -141px 0px;
-    border: 1px solid  rgb(130, 130, 130); 
-    border-radius: 5px;
-    bottom: 0.5px;
     width: 80px;
     height: 40px;
-    margin-bottom: -40px;
     margin-left: -9px;
     position: absolute;
     z-index: 1;
     cursor: pointer;
-    
 }
 
 .kk{
+    position: absolute;
     left: 890px;
-    position: absolute;
-    margin-top:3510px;
+    top: 4810px;
 }
+
 .ind{
-    position: absolute;
-    border-color: rgb(232, 232, 232);
-    border-image: initial;
-    border-radius:5px ;
+    border-radius: 5px;
     border: 1px solid gainsboro;
     font-size: 20px;
     cursor: pointer;
@@ -558,9 +269,9 @@ footer{
 }
 
 .ii{
-    left: 1040px;
     position: absolute;
-    margin-top:3510px;
+    left: 1030px;
+    top: 4810px;
 }
 
 .world{
@@ -597,36 +308,15 @@ footer{
     width: 14.7rem;
     height: 6rem;
     cursor: pointer;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin-top:3650px;
     position: absolute;
     left: 925px;
 }
 
-.sit a::before {
-    content: "";
-    position: absolute;
-    margin: auto;
-    height: 2px;
-    background: gainsboro;
-    width: 1100px;
-    top: 120px;
-    right: -360px;
-}
-
-.gg{
-    left: 135px;
-    position: absolute;
-    margin-top:3860px;
-    text-decoration: none;
+.service{
     font-size: 15px;
     color: rgb(130, 130, 130);
 }
 
-.se{
-    position: absolute;
-    top: 352.5px;
-    margin-left: 897px;
-    cursor: pointer;
+hr{
+    margin-right: 100px;
 }

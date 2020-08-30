@@ -1,0 +1,140 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    height: 500px;
+    width: 1050px;
+    margin: auto;
+    margin-top: 100px;
+    border: solid lightgray;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.main-block{
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.word-block{
+    height: 40px;
+    width: 180px;
+    border: solid gray;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.minus{
+    font-size: 26px;
+    color: gray;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.logo{
+    height: 34px;
+    width: 35px;
+    border-radius: 23px;
+    border: solid gray;
+    background-color: white;
+}
+
+.logo-word{
+    margin: -30px;
+    margin-left: 42px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+.return{
+    margin-top: 16px;
+    color: blue;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 60px;
+    margin-left: 15px
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 95%;
+    background-color: #f2f2f2;
+}
+
+tr{
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    height: 15px;
+}
+
+td{
+    padding: 15px;
+    border-left: 2px solid skyblue;
+}
+
+th{
+    padding: 15px;
+    border-left: 2px solid skyblue;
+}
+
+.error-colorred{
+    color: red;
+}
+
+.error-color{
+    color: darkkhaki;
+}
+
+.no-bor{
+    border-left: 2px solid white;
+}
+
+.row-borg{
+    border-top: 1px solid grey;
+}
+
+.row-bor{
+    border-top: 1px dotted skyblue;
+}
+
+.btn{
+    float: right;
+    margin-top: 70px;
+    margin-right: 25px;
+}
+
+button{
+    background-color: #f2f2f2;
+    border: 0px;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+img{
+    cursor: pointer;
+}

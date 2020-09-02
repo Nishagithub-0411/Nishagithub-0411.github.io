@@ -2,14 +2,52 @@
 <html>
     <head>
         <title>My first web page</title>
-        <link rel="stylesheet" href="index.css">  
+        <link rel="stylesheet" href="index.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <script>
+            function shownav() {
+                var links = document.querySelector(".links");
+                var icon = document.querySelector(".icon i");
+                if (links.style.display == "block") {
+                    links.style.display = "none";
+                    icon.classList.remove("fa-close");
+                    icon.classList.add("fa-bars");
+                } else {
+                    links.style.display = "block";
+                    icon.classList.remove("fa-bars");
+                    icon.classList.add("fa-close");
+                }
+            }
+        </script> 
     </head>
     <body>
-        <ul position="fixed" width="100%" top="0px">
+      <header>
+          <div>
+            <nav class="flex-nav">
+              <ul position="fixed" width="100%" top="0px">
+                <li class="li"><a href="#contact">Contact</a></li>
+                <li class="li"><a href="#projects">Work</a></li>
+                <li class="li"><a href="#section">About</a></li>
+            </ul>
+            </nav>
+            <div class="nav-icon">
+              <i class="fa fa-bars" onclick="openNav()"></i>
+            </div>
+          </div>
+       
+        <nav class="flex-nav-mobile">
+          <ul position="fixed" width="100%" top="0px">
             <li class="li"><a href="#contact">Contact</a></li>
             <li class="li"><a href="#projects">Work</a></li>
             <li class="li"><a href="#section">About</a></li>
         </ul>
+        </nav>
+      </header>
+  </nav>
       <a name="section"></a>
       <section class="welcome-section">
         <h1>Hey I am Nisha</h1>
@@ -179,21 +217,10 @@
             <br>
             <br>
             <br>
-            <hr color="#be3144" width="100%">
-             
+            <hr color="#be3144" width="99%">
           <footer>
-            <p >
-              **This is just a fake portfolio. All the projects and contact details given
-              are not real.
-            </p>
+            <p >**This is a real portfolio. All the projects and contact details given are not fake.</p>
           </footer>
           </section>
-          
-          <!-- END CONTACT SECTION -->
-          
-          <!-- START FOOTER SECTION -->
-         
-          
-
     </body>
 </html>

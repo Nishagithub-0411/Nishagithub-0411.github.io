@@ -49,7 +49,6 @@ ul {
 .li a:hover {
     background-color: #45567d;
 }
- 
 h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -280,4 +279,31 @@ span.code{
 }
 a{
   text-decoration: none;
+}
+.flex-nav {
+  padding-top: 16px;
+}
+.flex-nav-mobile {
+  display: none;
+}
+@media (max-width: 900px){
+  .flex-nav {
+    display: none;
+  }
+  .nav-icon {
+    color: #ffffff;
+    display: block;
+}
+.nav-icon i {
+  height: 50px;
+  width: 50px;
+  padding-top: 20px;
+}
+.flex-nav-mobile {
+  position: absolute;
+  position: fixed;
+  top: 60px;
+  background-color: #be3144;
+  width: 100%;
+}
 }
